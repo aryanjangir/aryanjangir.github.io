@@ -8,6 +8,31 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<style>
+		.tooltip {
+		  position: relative;
+		  display: inline-block;
+		  border-bottom: 1px dotted black;
+		}
+		
+		.tooltip .tooltiptext {
+		  visibility: hidden;
+		  width: 230px;
+		  background-color: black;
+		  color: #fff;
+		  text-align: center;
+		  border-radius: 6px;
+		  padding: 5px 0;
+		
+		  /* Position the tooltip */
+		  position: absolute;
+		  z-index: 1;
+		}
+		
+		.tooltip:hover .tooltiptext {
+		  visibility: visible;
+		}
+		</style>
 	<body class="is-preload">
 		<div id="wrapper">
 			<div id="bg"></div>
@@ -16,24 +41,19 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="https://aryandata.wixsite.com/resume">Aryan</a></h1>
-						<p>Advanced Excel &nbsp;&bull;&nbsp; SQL &nbsp;&bull;&nbsp; Data Visualisation</p>
+						<a class="tooltip" href="https://aryandata.wixsite.com/resume"><h1>Aryan</h1><span class="tooltiptext">Click here to open the Portfolio</span></a>
+						<p>Advanced Excel &nbsp;&bull;&nbsp; SQL &nbsp;&bull;&nbsp; Data Visualization</p>
 						<nav>
 							<ul>
-								<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
 								<li><a href="https://www.linkedin.com/in/aryanjangir" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.kaggle.com/aryan51/" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+								<li><a href="https://aryandata.wixsite.com/resume" class="icon brands fa-kaggle"><span class="label">Portfolio</span></a></li>
 								<li><a href="https://github.com/aryanjangir/" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<li><a href="mailto:aryanjangir10@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
 					</header>
 
-				<!-- Footer 
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>-->
-
+			
 			</div>
 		</div>
 		<script>
